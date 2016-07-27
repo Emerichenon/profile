@@ -1,0 +1,92 @@
+/* Here goes your CSS */
+body {
+  background-color: RGBA(62, 78, 80, 1.00);
+  font-family: 'Open Sans';
+  color: rgba(60, 60, 60, 1);
+  font-size: 14px;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat';
+}
+
+h1 {
+  color: RGBA(242, 146, 43, 1.00);
+  font-size: 22px;
+}
+
+h2, h3 {
+  color: rgba(30, 30, 30, 1);
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+p {
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(150, 150, 150, 1);
+}
+
+a:hover {
+  color: rgba(10, 10, 10, 1);
+}
+
+/* My classes */
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  padding: 20px;
+  margin: 20px;
+  background-color: RGBA(246, 252, 242, 1.10);
+  border-radius: 7px;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.4);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-border {
+  border: 1px solid grey;
+}
+
+.btn-orange {
+  background-color: RGBA(242, 146, 43, 1.00);
+  color: white;
+  border-radius: 3px;
+  padding: 8px 30px;
+  font-weight: bolder;
+}
+
+.btn-orange:hover {
+  background-color: RGBA(232, 119, 0, 1.00);
+  color: white;
+  border-radius: 3px;
+  padding: 8px 30px;
+  font-weight: bolder;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+    padding-left: 0px;
+}
+
+.img-thumbnail {
+  width: 120px;
+  padding: 20px;
+}
