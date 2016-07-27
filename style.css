@@ -90,3 +90,15 @@ a:hover {
   width: 120px;
   padding: 20px;
 }
+
+#sidebar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: RGBA(56, 64, 71, 1.00);
+}
+#page-content {
+  margin-left: 300px;
+}
