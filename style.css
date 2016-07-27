@@ -1,8 +1,8 @@
 /* Here goes your CSS */
 body {
-  background-color: RGBA(62, 78, 80, 1.00);
+  background-color: RGBA(242, 238, 232, 1.00);
   font-family: 'Open Sans';
-  color: rgba(60, 60, 60, 1);
+  color: white;
   font-size: 14px;
 }
 
@@ -11,12 +11,12 @@ h1, h2, h3 {
 }
 
 h1 {
-  color: RGBA(242, 146, 43, 1.00);
+  color: white;
   font-size: 22px;
 }
 
 h2, h3 {
-  color: rgba(30, 30, 30, 1);
+  color: white;
   font-size: 20px;
   font-weight: lighter;
 }
@@ -27,11 +27,11 @@ p {
 
 a {
   text-decoration: none;
-  color: rgba(150, 150, 150, 1);
+  color: white;
 }
 
 a:hover {
-  color: rgba(10, 10, 10, 1);
+  color: rgba(200, 200, 200, 1);
 }
 
 /* My classes */
@@ -44,7 +44,7 @@ a:hover {
 .card {
   padding: 20px;
   margin: 20px;
-  background-color: RGBA(246, 252, 242, 1.10);
+  background-color: RGBA(128, 168, 204, 1.00);
   border-radius: 7px;
   box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.4);
 }
@@ -58,21 +58,24 @@ a:hover {
 }
 
 .img-border {
-  border: 1px solid grey;
+  border: 0.5px solid white;
+}
+
+.img-shadow {
+  box-shadow: 1px 1px 8px black;
 }
 
 .btn-orange {
-  background-color: RGBA(242, 146, 43, 1.00);
+  background-color: RGBA(108, 148, 184, 1.00);
   color: white;
-  border-radius: 3px;
+  border-radius: 50px;
   padding: 8px 30px;
   font-weight: bolder;
 }
 
 .btn-orange:hover {
-  background-color: RGBA(232, 119, 0, 1.00);
+  background-color: RGBA(100, 138, 171, 1.00);
   color: white;
-  border-radius: 3px;
   padding: 8px 30px;
   font-weight: bolder;
 }
@@ -115,7 +118,7 @@ a:hover {
   left: 0;
   top: 0;
   bottom: 0;
-  background-color: RGBA(246, 252, 242, 1.0);
+  background-color: RGBA(100, 138, 171, 1.00);
 }
 
 #page-content {
